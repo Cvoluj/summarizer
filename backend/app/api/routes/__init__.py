@@ -1,0 +1,1 @@
+from backend.app.api.routes.summarize import router as summarize_router
