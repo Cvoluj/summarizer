@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, Request
 
 from backend.app.schemas import SummarizeSchema
-from backend.app.langchain import SimpleSummarizer, SimpleSummarizerV2
+from backend.app.langchain import SimpleSummarizer
 
 
 router = APIRouter()
