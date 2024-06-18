@@ -1,1 +1,1 @@
-from backend.app.schemas.summarize_schema import SummarizeSchema
+from app.schemas.summarize_schema import SummarizeSchema

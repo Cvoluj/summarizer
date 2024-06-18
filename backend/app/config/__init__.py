@@ -1,1 +1,1 @@
-from backend.app.config.settings import server_setting
+from app.config.settings import server_setting

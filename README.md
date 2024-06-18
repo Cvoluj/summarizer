@@ -23,3 +23,7 @@ Before starting, ensure your system meets the following requirements:
 After all installations:
 `uvicorn backend.app.main:app --reload`
 then go to '/docs' or use Postman, Curl etc. to use /summary
+
+## Example of summaring
+
+![alt text](image.png)
