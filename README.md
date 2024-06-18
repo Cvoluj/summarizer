@@ -17,3 +17,9 @@ Before starting, ensure your system meets the following requirements:
 1. **Repository Setup:** Clone the repository to your local system.
 2. **Environment Configuration:** Copy the `.env.example` file to `.env` and configure it according to your needs.
 3. **Dependency Installation:** `pip install -r requirements.txt`
+
+## Run app
+
+After all installations:
+`uvicorn backend.app.main:app --reload`
+then go to '/docs' or use Postman, Curl etc. to use /summary
