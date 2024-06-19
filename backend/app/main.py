@@ -8,7 +8,8 @@ from backend.app.api.routes import summarize_router
 
 origins = [
     # Move origin to a variable, also include PORT setting in .env file, which can be handy
-    f'http://localhost:{server_setting.PORT}'
+    f'http://localhost:{server_setting.PY_PORT}',
+    'http://localhost:3000',
 ]
 
 app = FastAPI()
@@ -27,4 +28,4 @@ app.include_router(summarize_router)
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=server_setting.PORT)
+    uvicorn.run(app, host="127.0.0.1", port=server_setting.PY_PORT)

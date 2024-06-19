@@ -15,7 +15,7 @@ class ServerSettings(BaseSettings):
     """
     
     
-    PORT: int  # we can define port from .env file
+    PY_PORT: int  # we can define port from .env file
     
     model_config = SettingsConfigDict(env_file='.env')
 
